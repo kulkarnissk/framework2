@@ -21,8 +21,11 @@ public class hooksCode {
 	@Before("@Smoke")
 	public void setup() {
 		
+	
+		
 		System.out.println("Inside: Setup0");
 		WebDriverManager.chromedriver().setup();
+		System.out.println("Inside: Setup0");
 		
 		
 		 driver= new ChromeDriver();
